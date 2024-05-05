@@ -1,7 +1,7 @@
 Project Title: BitByte Cryptocurrency Platform
 
 Overview:
-BitByte is a cryptocurrency project aimed at providing a decentralized platform for secure and efficient digital transactions. It aims to revolutionize the way people exchange value online by offering a fast, secure, and transparent ecosystem built on blockchain technology.
+BitByte is a web-based application built using React.js and Tailwind CSS and aimed at providing a decentralized platform for secure and efficient digital transactions. It aims to revolutionize the way people exchange value online by offering a fast, secure, and transparent ecosystem on blockchain technology.
 
 # Available Scripts
 
