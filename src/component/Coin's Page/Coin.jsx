@@ -26,6 +26,7 @@ Chart.register(
   Legend,
   Tooltip
 );
+//** this is a single coin page **/
 
 const Coin = () => {
   const { id } = useParams();
@@ -57,7 +58,7 @@ const Coin = () => {
 
   return (
     <>
-      <div className="flex justify-evenly lg:flex-row flex-col bg-gray-100 p-5 flex-grow items-stretch">
+      <div className="flex justify-evenly lg:flex-row flex-col bg-gray-100 p-5 flex-grow items-stretch pt-24 -z-0">
         <div className="lg:w-8/12 w-full flex flex-col">
           <div>
             <SearchCoin />
@@ -68,12 +69,12 @@ const Coin = () => {
             ) : (
               <>
                 <div className="flex-col my-1">
-                  <div className="flex justify-between w-full my-3">
+                  <div className="flex justify-between items-center w-full my-3">
                     <div>
                       {chartDays.map((values) => {
                         return (
                           <button
-                            className="lg:px-2 py-1 mx-2 px-1 lg:text-base text-sm border focus:bg-yellow-400 border-yellow-400 rounded-md hover:text-regal-blue"
+                            className="lg:px-2 py-1 lg:mx-2 ml-2 px-1 lg:text-base text-sm border focus:bg-yellow-400 border-yellow-400 rounded-md hover:text-regal-blue"
                             onClick={() => SetDays(values.value)}
                           >
                             {values.label}
@@ -91,7 +92,8 @@ const Coin = () => {
                             id="Chart"
                           >
                             <option value="LineChart">Line Chart</option>
-                            <option value="BarChart">Bar Chart</option>
+                            <option value="BarChart">Bar Chart Ver</option>
+                            <option>Bar Chart Hor</option>
                           </select>
                         </div>
                       </form>

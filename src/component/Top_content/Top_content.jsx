@@ -6,6 +6,7 @@ import logo_3 from '../../Asset/img/logo-03.png'
 const TopContent = () => {
     return(
         <>
+        {/* home page main content */}
         <section className='py-20'>
             <div className='grid lg:grid-cols-5 '>
                 <div className='lg:col-span-3'>

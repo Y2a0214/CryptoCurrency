@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="w-full bg-regal-blue">
+      <nav className="w-full bg-regal-blue fixed top-0 z-10">
         <div className="flex py-2 px-9 justify-between items-center">
           <div className="flex items-center">
             <img src={crypto_icon} alt="" width={45} />

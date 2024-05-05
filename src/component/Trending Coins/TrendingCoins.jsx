@@ -17,6 +17,7 @@ const TrendingCoins = () => {
 
   return (
     <>
+    {/* in this web we have taken only top coin - this is top coin compoent */}
       <section className="bg-regal-blue rounded-3xl m-5">
         <div className="py-1 px-8">
           <div className="flex flex-col items-center">

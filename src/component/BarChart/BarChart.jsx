@@ -22,6 +22,7 @@ import {
     Tooltip
   );
 
+//** this is barchart component **//
 
 const BarChart = (props) => {
     const { id } = useParams();

@@ -13,6 +13,7 @@ const Market = () => {
 
   return (
     <>
+    {/* list of coin  */}
       <div className="px-5 py-20">
         <div>
           <h2 className="font-bold lg:text-5xl text-2xl mb-7">Market Update</h2>

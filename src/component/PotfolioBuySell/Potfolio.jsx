@@ -42,9 +42,10 @@ const Potfolio = () => {
     }
     return(
         <>
+            {/* Potfolio and buy sell coin */}
             <div className="flex justify-between lg:flex-row flex-col">
                 <div className="left flex flex-col items-center bg-white rounded-md p-2 my-2 lg:w-1/3 w-full">
-                    <h2 className="text-xl font-semibold p-2">Portfolio's</h2>
+                    <h2 className="text-xl font-semibold p-2">Portfolio's $1000</h2>
                     <div className="lg:w-72  w-64">
                         <Pie style={{width: 248}}
                             data={{
